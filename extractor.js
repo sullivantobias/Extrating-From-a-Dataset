@@ -13,7 +13,7 @@ const unemploymentResultParsed = data.map(x =>
   x.fields.val_de_marne.replace(",", ".")
 );
 const min = Math.min(...unemploymentResultParsed),
-  max = Math.max(...unemploymentResultParsed); 
+  max = Math.max(...unemploymentResultParsed);
 
 /**
  * Join Array
@@ -23,12 +23,13 @@ const yearsWellSplited = yearsResult.join(" "),
   unemploymentWellSplited = unemploymentResult.join(" ");
 
 /**
- * Average 
+ * Average
  */
 
-const intArray = unemploymentResultParsed.map(Number)
+const intArray = unemploymentResultParsed.map(Number);
 
-const reducer = (accumulator, currentValue) => (accumulator + currentValue) / intArray.length;
+const reducer = (accumulator, currentValue) =>
+  (accumulator + currentValue) / intArray.length;
 const average = intArray.reduce(reducer) * 100;
 
 /**
@@ -48,4 +49,3 @@ unemploymentView.innerHTML = unemploymentWellSplited;
 maxView.innerHTML = max + "%";
 minView.innerHTML = min + "%";
 averageView.innerHTML = average.toFixed(1) + "%";
-
