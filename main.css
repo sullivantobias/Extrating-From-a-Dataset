@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+th {
+  border: 3px solid;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+.hasMargin {
+    margin-top: 40px;
+}

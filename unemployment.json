@@ -1,0 +1,2377 @@
+const data = [
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "918b234092ddd4ed3c1e956f41ab02210b5c7ddb",
+    "fields": {
+      "yvelines": "3,8",
+      "essonne": "5,2",
+      "val_d_oise": "5,3",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "6,9",
+      "val_de_marne": "5,3",
+      "ile_de_france": "01-05-05",
+      "paris": "6,3",
+      "hauts_de_seine": "4,9",
+      "annee": "1982",
+      "seine_et_marne": "5",
+      "france_metropolitaine": "6,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "5903c6b12ec493d50a03d80c3aa7e8c8a7a39559",
+    "fields": {
+      "yvelines": "3,9",
+      "essonne": "5,1",
+      "val_d_oise": "5,6",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "7",
+      "val_de_marne": "5,4",
+      "ile_de_france": "01-05-06",
+      "paris": "6,6",
+      "hauts_de_seine": "5",
+      "annee": "1983",
+      "seine_et_marne": "5,3",
+      "france_metropolitaine": "7,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c9c90964b5d29d74593a73fff98642f6a3070a1d",
+    "fields": {
+      "yvelines": "4,9",
+      "essonne": "5,9",
+      "val_d_oise": "6,9",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "8,4",
+      "val_de_marne": "6,6",
+      "ile_de_france": "01-06-07",
+      "paris": "7,6",
+      "hauts_de_seine": "6",
+      "annee": "1984",
+      "seine_et_marne": "6,3",
+      "france_metropolitaine": "8,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0a7f0b1c62ad56adb1dae9911210a5698378c01a",
+    "fields": {
+      "yvelines": "5,6",
+      "essonne": "6,1",
+      "val_d_oise": "7,5",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "9,2",
+      "val_de_marne": "6,9",
+      "ile_de_france": "01-07-03",
+      "paris": "8,3",
+      "hauts_de_seine": "6,9",
+      "annee": "1985",
+      "seine_et_marne": "6,4",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "d5dfbdf0d2f419e33926b86d849aef8c5c715051",
+    "fields": {
+      "yvelines": "5,1",
+      "essonne": "5,8",
+      "val_d_oise": "7,4",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9,5",
+      "val_de_marne": "7,4",
+      "ile_de_france": "01-07-03",
+      "paris": "8,4",
+      "hauts_de_seine": "7",
+      "annee": "1986",
+      "seine_et_marne": "6,4",
+      "france_metropolitaine": "9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "542c5958d7c3051c9dcdc4cd16c0ef936ab455d8",
+    "fields": {
+      "yvelines": "4,8",
+      "essonne": "5,2",
+      "val_d_oise": "7",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "9,1",
+      "val_de_marne": "6,6",
+      "ile_de_france": "01-06-09",
+      "paris": "8,6",
+      "hauts_de_seine": "6,3",
+      "annee": "1989",
+      "seine_et_marne": "6",
+      "france_metropolitaine": "8,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "ccc54f0059c165646f84e47a5a4ee42abc4131e8",
+    "fields": {
+      "yvelines": "4,5",
+      "essonne": "4,4",
+      "val_d_oise": "6,1",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "8,4",
+      "val_de_marne": "6,2",
+      "ile_de_france": "01-06-05",
+      "paris": "9,1",
+      "hauts_de_seine": "5,7",
+      "annee": "1990",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "7,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "5e7a2554aaf66a049763133b639d01959b93ecbc",
+    "fields": {
+      "yvelines": "5,2",
+      "essonne": "5,3",
+      "val_d_oise": "7,1",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "9,4",
+      "val_de_marne": "6,8",
+      "ile_de_france": "01-07-03",
+      "paris": "9,8",
+      "hauts_de_seine": "6,4",
+      "annee": "1992",
+      "seine_et_marne": "5,6",
+      "france_metropolitaine": "8,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "46258441a480b2693397ddac9f78b9475f41c5ff",
+    "fields": {
+      "yvelines": "5,8",
+      "essonne": "6",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "10,4",
+      "val_de_marne": "7,4",
+      "ile_de_france": "01-07-08",
+      "paris": "10",
+      "hauts_de_seine": "7,1",
+      "annee": "1992",
+      "seine_et_marne": "6,1",
+      "france_metropolitaine": "9,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "84eabd3357e87b95048b10f5d22e1da6c099a940",
+    "fields": {
+      "yvelines": "6,1",
+      "essonne": "6,4",
+      "val_d_oise": "8",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "11,1",
+      "val_de_marne": "7,8",
+      "ile_de_france": "01-08-01",
+      "paris": "10",
+      "hauts_de_seine": "7,5",
+      "annee": "1992",
+      "seine_et_marne": "6,3",
+      "france_metropolitaine": "9,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "159b00d7877f56c74b7dd20b9a5865ca097ed5c7",
+    "fields": {
+      "yvelines": "7,4",
+      "essonne": "7,4",
+      "val_d_oise": "9,9",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "13",
+      "val_de_marne": "9,1",
+      "ile_de_france": "01-09-03",
+      "paris": "10",
+      "hauts_de_seine": "8,8",
+      "annee": "1994",
+      "seine_et_marne": "8",
+      "france_metropolitaine": "10,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c66e3bdd32507ba04a5bbc178ab2abae4c0a24fa",
+    "fields": {
+      "yvelines": "7,1",
+      "essonne": "7,4",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "13,1",
+      "val_de_marne": "8,8",
+      "ile_de_france": "01-09-02",
+      "paris": "10",
+      "hauts_de_seine": "8,6",
+      "annee": "1995",
+      "seine_et_marne": "7,8",
+      "france_metropolitaine": "10,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "58f918c8e212371ec4d327dcf3affd4a3a9c89b1",
+    "fields": {
+      "yvelines": "7,2",
+      "essonne": "7,5",
+      "val_d_oise": "9,7",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "13,4",
+      "val_de_marne": "9",
+      "ile_de_france": "01-09-03",
+      "paris": "10,1",
+      "hauts_de_seine": "8,6",
+      "annee": "1996",
+      "seine_et_marne": "8",
+      "france_metropolitaine": "10,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "dff8b5ce1fa02b849d0eb8870ba9cadc6825b6a1",
+    "fields": {
+      "yvelines": "6,7",
+      "essonne": "6,9",
+      "val_d_oise": "9,2",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "13,4",
+      "val_de_marne": "8,9",
+      "ile_de_france": "01-08-08",
+      "paris": "9,6",
+      "hauts_de_seine": "7,9",
+      "annee": "1999",
+      "seine_et_marne": "7,1",
+      "france_metropolitaine": "9,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "809b47853a6023dc35c8c183ea05d58f64a30243",
+    "fields": {
+      "yvelines": "5,7",
+      "essonne": "5,8",
+      "val_d_oise": "7,9",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "11,9",
+      "val_de_marne": "7,6",
+      "ile_de_france": "01-07-06",
+      "paris": "8,6",
+      "hauts_de_seine": "6,8",
+      "annee": "2000",
+      "seine_et_marne": "5,8",
+      "france_metropolitaine": "8,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0cfaccd8c4a110a1947d5f33a2deadf68195a63b",
+    "fields": {
+      "yvelines": "5,4",
+      "essonne": "5,6",
+      "val_d_oise": "7,5",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "11,4",
+      "val_de_marne": "7,3",
+      "ile_de_france": "01-07-03",
+      "paris": "8,3",
+      "hauts_de_seine": "6,6",
+      "annee": "2000",
+      "seine_et_marne": "5,4",
+      "france_metropolitaine": "8,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "27eda853677c36b4564ade5329adeb671e48760a",
+    "fields": {
+      "yvelines": "5,5",
+      "essonne": "5,3",
+      "val_d_oise": "7,2",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "10,7",
+      "val_de_marne": "6,8",
+      "ile_de_france": "01-01-07",
+      "paris": "8",
+      "hauts_de_seine": "6,4",
+      "annee": "2002",
+      "seine_et_marne": "5,3",
+      "france_metropolitaine": "7,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "58153c159de9dbaecf01d2d1d189b6e389446f7f",
+    "fields": {
+      "yvelines": "5,7",
+      "essonne": "5,5",
+      "val_d_oise": "7,5",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "10,9",
+      "val_de_marne": "7",
+      "ile_de_france": "01-07-03",
+      "paris": "8,3",
+      "hauts_de_seine": "6,7",
+      "annee": "2002",
+      "seine_et_marne": "5,5",
+      "france_metropolitaine": "7,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "d410f4969a454fb8b9ffcf771a659c003775a854",
+    "fields": {
+      "yvelines": "5,9",
+      "essonne": "5,7",
+      "val_d_oise": "7,6",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "11",
+      "val_de_marne": "7,2",
+      "ile_de_france": "01-07-05",
+      "paris": "8,5",
+      "hauts_de_seine": "6,9",
+      "annee": "2002",
+      "seine_et_marne": "5,6",
+      "france_metropolitaine": "7,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "daed43b0221a51d07c782f2d798795c677e391c4",
+    "fields": {
+      "yvelines": "6,6",
+      "essonne": "6,7",
+      "val_d_oise": "8,6",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "12,1",
+      "val_de_marne": "7,9",
+      "ile_de_france": "01-08-04",
+      "paris": "9,5",
+      "hauts_de_seine": "7,8",
+      "annee": "2003",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "8,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "cdca9e8eec50ae560d6d54a06c74fe588b6f3aeb",
+    "fields": {
+      "yvelines": "7,2",
+      "essonne": "7,2",
+      "val_d_oise": "9,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "12,9",
+      "val_de_marne": "8,6",
+      "ile_de_france": "01-01-09",
+      "paris": "10",
+      "hauts_de_seine": "8,3",
+      "annee": "2004",
+      "seine_et_marne": "7,2",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "914c43f48cea520c3272b85cee0d5dde37ee217a",
+    "fields": {
+      "yvelines": "7,1",
+      "essonne": "7,1",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "12,7",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-08",
+      "paris": "9,6",
+      "hauts_de_seine": "8,2",
+      "annee": "2004",
+      "seine_et_marne": "7,2",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "fabb47eb4615b5ffba40b8eb9d3db87ec84171f8",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "7",
+      "val_d_oise": "9,2",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12,4",
+      "val_de_marne": "8,3",
+      "ile_de_france": "01-08-06",
+      "paris": "9,3",
+      "hauts_de_seine": "7,9",
+      "annee": "2005",
+      "seine_et_marne": "7,3",
+      "france_metropolitaine": "8,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "f62c77a7a74723a94e233ec845893016010511be",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "7",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "12,5",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-07",
+      "paris": "9,2",
+      "hauts_de_seine": "7,9",
+      "annee": "2005",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "a1c67d0204be853bc31a9b5f29d67cadd46cdf5f",
+    "fields": {
+      "yvelines": "6,7",
+      "essonne": "6,5",
+      "val_d_oise": "9,1",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "11,9",
+      "val_de_marne": "8,1",
+      "ile_de_france": "01-08-03",
+      "paris": "8,8",
+      "hauts_de_seine": "7,6",
+      "annee": "2006",
+      "seine_et_marne": "7",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "53614d74413b0094eff8126ced283982341d050d",
+    "fields": {
+      "yvelines": "6",
+      "essonne": "5,7",
+      "val_d_oise": "8,3",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "10,8",
+      "val_de_marne": "7,3",
+      "ile_de_france": "01-07-04",
+      "paris": "8",
+      "hauts_de_seine": "6,7",
+      "annee": "2007",
+      "seine_et_marne": "6,1",
+      "france_metropolitaine": "8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "6ff232bbb78409dd38e8cf0c810d61918f8fbad4",
+    "fields": {
+      "yvelines": "5,3",
+      "essonne": "5,1",
+      "val_d_oise": "7,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "9,5",
+      "val_de_marne": "6,4",
+      "ile_de_france": "01-06-05",
+      "paris": "7",
+      "hauts_de_seine": "5,8",
+      "annee": "2008",
+      "seine_et_marne": "5,5",
+      "france_metropolitaine": "7,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "6957a0d1371a344c1cdc0e21a1383a651c393de8",
+    "fields": {
+      "yvelines": "6",
+      "essonne": "6",
+      "val_d_oise": "8,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "10,3",
+      "val_de_marne": "7",
+      "ile_de_france": "01-07-03",
+      "paris": "7,7",
+      "hauts_de_seine": "6,5",
+      "annee": "2009",
+      "seine_et_marne": "6,5",
+      "france_metropolitaine": "8,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "4fc8571f297e3e410dcd8b57ac9a7230bbc5094f",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,1",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "11,7",
+      "val_de_marne": "8,2",
+      "ile_de_france": "01-08-05",
+      "paris": "8,8",
+      "hauts_de_seine": "7,7",
+      "annee": "2009",
+      "seine_et_marne": "7,6",
+      "france_metropolitaine": "9,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "f5ea4cec4ea3edd7e66036edfc3cd90de242a96a",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "7",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "11,6",
+      "val_de_marne": "8",
+      "ile_de_france": "01-08-03",
+      "paris": "8,6",
+      "hauts_de_seine": "7,5",
+      "annee": "2010",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "9,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "43a1101a31125e560ffac681eb2df51f58770cce",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "6,9",
+      "val_d_oise": "9,5",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "11,5",
+      "val_de_marne": "8",
+      "ile_de_france": "01-08-03",
+      "paris": "8,4",
+      "hauts_de_seine": "7,4",
+      "annee": "2010",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "9,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "6c64a017bcf5191f2607e0a91ddc06a9c58c2259",
+    "fields": {
+      "yvelines": "6,6",
+      "essonne": "6,7",
+      "val_d_oise": "9,2",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "11,5",
+      "val_de_marne": "8",
+      "ile_de_france": "01-08-01",
+      "paris": "8,1",
+      "hauts_de_seine": "7,1",
+      "annee": "2011",
+      "seine_et_marne": "7,2",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "106a7c56e043692e5a2d93b331ef8d6c3678641e",
+    "fields": {
+      "yvelines": "6,7",
+      "essonne": "6,9",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "11,8",
+      "val_de_marne": "8,2",
+      "ile_de_france": "01-08-02",
+      "paris": "8,2",
+      "hauts_de_seine": "7,3",
+      "annee": "2011",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "9,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "fc2a8a40cb3a79e0238cf13dae43497b49a272ad",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,3",
+      "val_d_oise": "9,8",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "12,5",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-06",
+      "paris": "8,4",
+      "hauts_de_seine": "7,7",
+      "annee": "2012",
+      "seine_et_marne": "7,8",
+      "france_metropolitaine": "9,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "8f39255caccf6f3c491e38340a22b313bab49aa3",
+    "fields": {
+      "yvelines": "7,5",
+      "essonne": "7,8",
+      "val_d_oise": "10,5",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "13,1",
+      "val_de_marne": "9",
+      "ile_de_france": "01-09-01",
+      "paris": "8,8",
+      "hauts_de_seine": "8,1",
+      "annee": "2013",
+      "seine_et_marne": "8,2",
+      "france_metropolitaine": "10,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "1163181b7d33ab0db5d79d38c1e837ef1b65721a",
+    "fields": {
+      "yvelines": "3,9",
+      "essonne": "5,3",
+      "val_d_oise": "5,3",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "7",
+      "val_de_marne": "5,5",
+      "ile_de_france": "01-05-06",
+      "paris": "6,3",
+      "hauts_de_seine": "4,9",
+      "annee": "1982",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "6,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "30aa844e5ce4ca2304ea0e1179f365e4264d10d9",
+    "fields": {
+      "yvelines": "5,5",
+      "essonne": "6,2",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "9,5",
+      "val_de_marne": "7,1",
+      "ile_de_france": "01-07-04",
+      "paris": "8,5",
+      "hauts_de_seine": "7",
+      "annee": "1986",
+      "seine_et_marne": "6,5",
+      "france_metropolitaine": "9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "e9f9d5fcde1ce6473add27ed4c9f936ecf766b0d",
+    "fields": {
+      "yvelines": "5,4",
+      "essonne": "6,1",
+      "val_d_oise": "7,6",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "7,5",
+      "ile_de_france": "01-07-05",
+      "paris": "8,6",
+      "hauts_de_seine": "7,2",
+      "annee": "1987",
+      "seine_et_marne": "6,7",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c97d8cefeea97bb6512a3510ffebf0747e527b53",
+    "fields": {
+      "yvelines": "5,4",
+      "essonne": "6",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "7,5",
+      "ile_de_france": "01-07-05",
+      "paris": "8,6",
+      "hauts_de_seine": "7,2",
+      "annee": "1987",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "fded93a73383dc9ca5de4937b3cc3669eb536de8",
+    "fields": {
+      "yvelines": "4,7",
+      "essonne": "4,9",
+      "val_d_oise": "6,5",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9",
+      "val_de_marne": "6,3",
+      "ile_de_france": "01-06-07",
+      "paris": "8,6",
+      "hauts_de_seine": "5,9",
+      "annee": "1989",
+      "seine_et_marne": "5,7",
+      "france_metropolitaine": "8,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "745e8de7486b0347a3e84266a2e78529155d70e5",
+    "fields": {
+      "yvelines": "7,5",
+      "essonne": "7,6",
+      "val_d_oise": "9,8",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "12,8",
+      "val_de_marne": "9,3",
+      "ile_de_france": "01-09-04",
+      "paris": "10,4",
+      "hauts_de_seine": "8,9",
+      "annee": "1993",
+      "seine_et_marne": "7,7",
+      "france_metropolitaine": "10,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "4fc85e9f48a408a4b8862bc983698ee23edc30ed",
+    "fields": {
+      "yvelines": "7,4",
+      "essonne": "7,6",
+      "val_d_oise": "10",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "13,9",
+      "val_de_marne": "9,4",
+      "ile_de_france": "01-09-05",
+      "paris": "10,1",
+      "hauts_de_seine": "8,6",
+      "annee": "1997",
+      "seine_et_marne": "8,2",
+      "france_metropolitaine": "10,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "fa5f2fa08438e252dcc5cc744de5682b1540a17e",
+    "fields": {
+      "yvelines": "6,3",
+      "essonne": "6,6",
+      "val_d_oise": "8,7",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "13,3",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-05",
+      "paris": "9,3",
+      "hauts_de_seine": "7,5",
+      "annee": "1999",
+      "seine_et_marne": "6,7",
+      "france_metropolitaine": "9,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "027cec79bc9afa675d1ec085ce1b6182da8125cc",
+    "fields": {
+      "yvelines": "4,9",
+      "essonne": "4,9",
+      "val_d_oise": "6,9",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "10,6",
+      "val_de_marne": "6,7",
+      "ile_de_france": "01-06-07",
+      "paris": "7,6",
+      "hauts_de_seine": "6",
+      "annee": "2001",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "7,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "750f02b4a9d792c862efc57cb1ca3299b9378e20",
+    "fields": {
+      "yvelines": "5",
+      "essonne": "4,9",
+      "val_d_oise": "6,8",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "10,4",
+      "val_de_marne": "6,5",
+      "ile_de_france": "01-06-07",
+      "paris": "7,6",
+      "hauts_de_seine": "6",
+      "annee": "2001",
+      "seine_et_marne": "4,9",
+      "france_metropolitaine": "7,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "546cfd41a017b7b6a195d2d41cb801c171fc363a",
+    "fields": {
+      "yvelines": "6,4",
+      "essonne": "6,1",
+      "val_d_oise": "8,8",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "11,4",
+      "val_de_marne": "7,8",
+      "ile_de_france": "01-07-09",
+      "paris": "8,4",
+      "hauts_de_seine": "7,2",
+      "annee": "2007",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "8,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "65e8e341ca9f2855e8f62f43b0a2c7e3da3d93a1",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "6,9",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "11,6",
+      "val_de_marne": "8,1",
+      "ile_de_france": "01-08-03",
+      "paris": "8,5",
+      "hauts_de_seine": "7,4",
+      "annee": "2010",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "9,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c2cbe95809b9179667d8eea33fda8638ff472cd8",
+    "fields": {
+      "yvelines": "7,2",
+      "essonne": "7,4",
+      "val_d_oise": "10,1",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "12,7",
+      "val_de_marne": "8,6",
+      "ile_de_france": "01-08-08",
+      "paris": "8,5",
+      "hauts_de_seine": "7,8",
+      "annee": "2012",
+      "seine_et_marne": "8",
+      "france_metropolitaine": "10,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0163ce8dd3ca00c1e8195a1ec5e5dd5e779a54d6",
+    "fields": {
+      "yvelines": "4",
+      "essonne": "5,3",
+      "val_d_oise": "5,4",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "7",
+      "val_de_marne": "5,6",
+      "ile_de_france": "01-05-06",
+      "paris": "6,4",
+      "hauts_de_seine": "5",
+      "annee": "1982",
+      "seine_et_marne": "5,3",
+      "france_metropolitaine": "6,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "331894b1f0d10a2634175641c93cd43c6ce43e29",
+    "fields": {
+      "yvelines": "3,9",
+      "essonne": "5,3",
+      "val_d_oise": "5,5",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "7,1",
+      "val_de_marne": "5,5",
+      "ile_de_france": "01-05-06",
+      "paris": "6,4",
+      "hauts_de_seine": "4,9",
+      "annee": "1982",
+      "seine_et_marne": "5,1",
+      "france_metropolitaine": "6,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c56c301815731f16615b9619902aa7ac1fa48334",
+    "fields": {
+      "yvelines": "4,5",
+      "essonne": "4,7",
+      "val_d_oise": "6,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "8,8",
+      "val_de_marne": "6,1",
+      "ile_de_france": "01-06-06",
+      "paris": "8,8",
+      "hauts_de_seine": "5,8",
+      "annee": "1990",
+      "seine_et_marne": "5,5",
+      "france_metropolitaine": "8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "a0d5e2b27c60fe20a586ad68a6e1f78f174628f2",
+    "fields": {
+      "yvelines": "4,4",
+      "essonne": "4,4",
+      "val_d_oise": "6,1",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "8,6",
+      "val_de_marne": "6,1",
+      "ile_de_france": "01-06-05",
+      "paris": "8,9",
+      "hauts_de_seine": "5,7",
+      "annee": "1990",
+      "seine_et_marne": "5,3",
+      "france_metropolitaine": "7,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "13fca37e26f9efeb04d31bd204542c2ba727e70e",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "7,1",
+      "val_d_oise": "9",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12",
+      "val_de_marne": "8,7",
+      "ile_de_france": "01-08-08",
+      "paris": "10,2",
+      "hauts_de_seine": "8,3",
+      "annee": "1993",
+      "seine_et_marne": "7",
+      "france_metropolitaine": "9,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "e050acb19d64c519be44821483aa13eb3aabadb3",
+    "fields": {
+      "yvelines": "7,6",
+      "essonne": "7,5",
+      "val_d_oise": "10",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "13,1",
+      "val_de_marne": "9,2",
+      "ile_de_france": "01-09-05",
+      "paris": "10,1",
+      "hauts_de_seine": "9",
+      "annee": "1994",
+      "seine_et_marne": "8,2",
+      "france_metropolitaine": "10,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "9eb1cc5bd7a7767f4355626e37a037a09539c601",
+    "fields": {
+      "yvelines": "7,2",
+      "essonne": "7,2",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "12,6",
+      "val_de_marne": "8,8",
+      "ile_de_france": "01-01-09",
+      "paris": "9,7",
+      "hauts_de_seine": "8,6",
+      "annee": "1995",
+      "seine_et_marne": "7,8",
+      "france_metropolitaine": "10,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "fd3b518088a484da85dad57f7e3a531c8b65872c",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,3",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "13,9",
+      "val_de_marne": "9,2",
+      "ile_de_france": "01-09-02",
+      "paris": "10,1",
+      "hauts_de_seine": "8,1",
+      "annee": "1999",
+      "seine_et_marne": "7,7",
+      "france_metropolitaine": "10,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "004adc2216716c5ecf5792d1276e166718cf9fc3",
+    "fields": {
+      "yvelines": "5,9",
+      "essonne": "6,2",
+      "val_d_oise": "8,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "12,8",
+      "val_de_marne": "8",
+      "ile_de_france": "01-08-01",
+      "paris": "9",
+      "hauts_de_seine": "7,1",
+      "annee": "2000",
+      "seine_et_marne": "6,2",
+      "france_metropolitaine": "9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "8b3dd49149a4e947955bdb9d29c5e27c88dfd06e",
+    "fields": {
+      "yvelines": "5,2",
+      "essonne": "5,2",
+      "val_d_oise": "7,4",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "10,9",
+      "val_de_marne": "7,2",
+      "ile_de_france": "01-07-01",
+      "paris": "7,9",
+      "hauts_de_seine": "6,5",
+      "annee": "2000",
+      "seine_et_marne": "5,3",
+      "france_metropolitaine": "8,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "462a61338071bd55eda594eae8c045297d9c3af5",
+    "fields": {
+      "yvelines": "5",
+      "essonne": "5",
+      "val_d_oise": "7,2",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "10,6",
+      "val_de_marne": "6,9",
+      "ile_de_france": "01-06-08",
+      "paris": "7,6",
+      "hauts_de_seine": "6,2",
+      "annee": "2001",
+      "seine_et_marne": "5,4",
+      "france_metropolitaine": "7,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "825e4881917e453c63a2076062acd80ec3e15781",
+    "fields": {
+      "yvelines": "5,1",
+      "essonne": "5",
+      "val_d_oise": "6,9",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "10,3",
+      "val_de_marne": "6,5",
+      "ile_de_france": "01-06-07",
+      "paris": "7,7",
+      "hauts_de_seine": "6,1",
+      "annee": "2001",
+      "seine_et_marne": "5",
+      "france_metropolitaine": "7,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "b2321a7342ffc412ff3e940d1aafe19eeceabb3e",
+    "fields": {
+      "yvelines": "6,6",
+      "essonne": "6,7",
+      "val_d_oise": "8,7",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12,1",
+      "val_de_marne": "7,9",
+      "ile_de_france": "01-08-04",
+      "paris": "9,5",
+      "hauts_de_seine": "7,9",
+      "annee": "2003",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "8,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c0d75466584391f0b240808fc64db52ea92f4243",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7",
+      "val_d_oise": "9,2",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12,7",
+      "val_de_marne": "8,4",
+      "ile_de_france": "01-08-08",
+      "paris": "9,7",
+      "hauts_de_seine": "8,1",
+      "annee": "2004",
+      "seine_et_marne": "7,1",
+      "france_metropolitaine": "8,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "bef54427ec341a78a1b30e94b33aa096750d557c",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,1",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "12,6",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-07",
+      "paris": "9,3",
+      "hauts_de_seine": "8",
+      "annee": "2005",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "5b967398808f94786a0f7fe15e6a4e1e827ac12f",
+    "fields": {
+      "yvelines": "6,3",
+      "essonne": "6,1",
+      "val_d_oise": "8,7",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "11,3",
+      "val_de_marne": "7,7",
+      "ile_de_france": "01-07-08",
+      "paris": "8,3",
+      "hauts_de_seine": "7,2",
+      "annee": "2006",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "8,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "d9cdb7974d6b14456b85e4eca6731acf43f8b43d",
+    "fields": {
+      "yvelines": "6,2",
+      "essonne": "5,9",
+      "val_d_oise": "8,6",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "11,1",
+      "val_de_marne": "7,6",
+      "ile_de_france": "01-07-06",
+      "paris": "8,1",
+      "hauts_de_seine": "7",
+      "annee": "2007",
+      "seine_et_marne": "6,3",
+      "france_metropolitaine": "8,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0b7cee96c9efa90601cdb433fe19cb6c14a18e80",
+    "fields": {
+      "yvelines": "5,6",
+      "essonne": "5,3",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "10,1",
+      "val_de_marne": "6,8",
+      "ile_de_france": "01-06-09",
+      "paris": "7,4",
+      "hauts_de_seine": "6,1",
+      "annee": "2007",
+      "seine_et_marne": "5,8",
+      "france_metropolitaine": "7,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "ce3015fa60f1978674bddac0309466296cfae203",
+    "fields": {
+      "yvelines": "5,3",
+      "essonne": "5,2",
+      "val_d_oise": "7,4",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "9,5",
+      "val_de_marne": "6,4",
+      "ile_de_france": "01-06-06",
+      "paris": "7,1",
+      "hauts_de_seine": "5,8",
+      "annee": "2008",
+      "seine_et_marne": "5,6",
+      "france_metropolitaine": "7,4"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "890d24ac0eaf23d6bbb33534a4f4b0002aca8870",
+    "fields": {
+      "yvelines": "6,6",
+      "essonne": "6,7",
+      "val_d_oise": "9,1",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "11,1",
+      "val_de_marne": "7,7",
+      "ile_de_france": "01-01-08",
+      "paris": "8,4",
+      "hauts_de_seine": "7,2",
+      "annee": "2009",
+      "seine_et_marne": "7,2",
+      "france_metropolitaine": "9,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "2196c9929d59188acdd4ddf6fe4494ad1b642044",
+    "fields": {
+      "yvelines": "6,7",
+      "essonne": "6,9",
+      "val_d_oise": "9,3",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "11,7",
+      "val_de_marne": "8,1",
+      "ile_de_france": "01-08-02",
+      "paris": "8,3",
+      "hauts_de_seine": "7,3",
+      "annee": "2011",
+      "seine_et_marne": "7,3",
+      "france_metropolitaine": "9,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "db3e8361fe01427701d2733da77ce5ab58f340fe",
+    "fields": {
+      "yvelines": "6,8",
+      "essonne": "7,1",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "12,1",
+      "val_de_marne": "8,3",
+      "ile_de_france": "01-08-04",
+      "paris": "8,3",
+      "hauts_de_seine": "7,5",
+      "annee": "2012",
+      "seine_et_marne": "7,6",
+      "france_metropolitaine": "9,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "d2e3541a2751a49c95b0f5b390831177191570ea",
+    "fields": {
+      "yvelines": "4,8",
+      "essonne": "5,6",
+      "val_d_oise": "6,7",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "8,3",
+      "val_de_marne": "6,5",
+      "ile_de_france": "01-06-06",
+      "paris": "7,4",
+      "hauts_de_seine": "5,9",
+      "annee": "1985",
+      "seine_et_marne": "6,1",
+      "france_metropolitaine": "8,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "1947c657d5da1e93e06e74326f565bdd9dd16560",
+    "fields": {
+      "yvelines": "5,3",
+      "essonne": "5,8",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "7,3",
+      "ile_de_france": "01-07-05",
+      "paris": "8,8",
+      "hauts_de_seine": "7",
+      "annee": "1988",
+      "seine_et_marne": "6,5",
+      "france_metropolitaine": "9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "84382b19d54a1b6a1c1bd5abe883943f8754d16d",
+    "fields": {
+      "yvelines": "5,4",
+      "essonne": "5,8",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "7,2",
+      "ile_de_france": "01-07-05",
+      "paris": "8,9",
+      "hauts_de_seine": "6,9",
+      "annee": "1988",
+      "seine_et_marne": "6,4",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0247567b56752fa967e9c7062086383c06fb9d83",
+    "fields": {
+      "yvelines": "4,7",
+      "essonne": "4,7",
+      "val_d_oise": "6,4",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "9",
+      "val_de_marne": "6,3",
+      "ile_de_france": "01-06-09",
+      "paris": "9,7",
+      "hauts_de_seine": "5,9",
+      "annee": "1991",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "8,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "9301617b78c368b48ae13ed383f92213007bb4e4",
+    "fields": {
+      "yvelines": "4,8",
+      "essonne": "4,7",
+      "val_d_oise": "6,6",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "9,3",
+      "val_de_marne": "6,4",
+      "ile_de_france": "01-01-07",
+      "paris": "9,8",
+      "hauts_de_seine": "5,9",
+      "annee": "1991",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "8,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "7c42be813a591a2032829980aaea734a988bc13b",
+    "fields": {
+      "yvelines": "7,7",
+      "essonne": "7,7",
+      "val_d_oise": "10,2",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "13,3",
+      "val_de_marne": "9,4",
+      "ile_de_france": "01-09-06",
+      "paris": "10,4",
+      "hauts_de_seine": "9,1",
+      "annee": "1994",
+      "seine_et_marne": "8,3",
+      "france_metropolitaine": "10,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0ea3e3f064b98ebf99d91369204997fd1467af0d",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,1",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12,6",
+      "val_de_marne": "8,7",
+      "ile_de_france": "01-08-09",
+      "paris": "9,7",
+      "hauts_de_seine": "8,4",
+      "annee": "1995",
+      "seine_et_marne": "7,7",
+      "france_metropolitaine": "9,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "3fc7a1a31eac172a06a815412175240ea29aa91e",
+    "fields": {
+      "yvelines": "7,1",
+      "essonne": "7,3",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "13",
+      "val_de_marne": "8,8",
+      "ile_de_france": "01-09-01",
+      "paris": "10",
+      "hauts_de_seine": "8,5",
+      "annee": "1995",
+      "seine_et_marne": "7,7",
+      "france_metropolitaine": "10"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "9e2b1d1ad94da1906b970f9bfe02a12f81ce0114",
+    "fields": {
+      "yvelines": "7,4",
+      "essonne": "7,6",
+      "val_d_oise": "9,9",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "13,6",
+      "val_de_marne": "9",
+      "ile_de_france": "01-09-04",
+      "paris": "10,2",
+      "hauts_de_seine": "8,7",
+      "annee": "1996",
+      "seine_et_marne": "8,1",
+      "france_metropolitaine": "10,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "cb10ee16455280630371aeb6bead0ed4fd7d9659",
+    "fields": {
+      "yvelines": "7,5",
+      "essonne": "7,7",
+      "val_d_oise": "10,1",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "13,8",
+      "val_de_marne": "9,1",
+      "ile_de_france": "01-09-05",
+      "paris": "10,3",
+      "hauts_de_seine": "8,7",
+      "annee": "1996",
+      "seine_et_marne": "8,2",
+      "france_metropolitaine": "10,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "6e00da5db670ed186eab874e9ace99fa6c58711d",
+    "fields": {
+      "yvelines": "7,6",
+      "essonne": "7,9",
+      "val_d_oise": "10,3",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "14",
+      "val_de_marne": "9,5",
+      "ile_de_france": "01-09-07",
+      "paris": "10,3",
+      "hauts_de_seine": "8,8",
+      "annee": "1997",
+      "seine_et_marne": "8,5",
+      "france_metropolitaine": "10,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "217b89d0580dfb79ba5d78559ea95fe213e249a4",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,3",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "13,9",
+      "val_de_marne": "9,2",
+      "ile_de_france": "01-09-03",
+      "paris": "10,1",
+      "hauts_de_seine": "8,3",
+      "annee": "1998",
+      "seine_et_marne": "7,8",
+      "france_metropolitaine": "10,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "b07c7e175328cbfe8413a82d6d7feebd1d2d0296",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "7,1",
+      "val_d_oise": "9,5",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "13,8",
+      "val_de_marne": "9",
+      "ile_de_france": "01-09-01",
+      "paris": "9,9",
+      "hauts_de_seine": "8",
+      "annee": "1999",
+      "seine_et_marne": "7,5",
+      "france_metropolitaine": "10,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "88e069ce4c9d98cdf52caa12b64a999a699e83e8",
+    "fields": {
+      "yvelines": "6,1",
+      "essonne": "6",
+      "val_d_oise": "7,9",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "11,3",
+      "val_de_marne": "7,4",
+      "ile_de_france": "01-07-07",
+      "paris": "8,8",
+      "hauts_de_seine": "7,2",
+      "annee": "2002",
+      "seine_et_marne": "5,9",
+      "france_metropolitaine": "8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "f23349cf55efdbbe5b144cae0f239f4e12b32d62",
+    "fields": {
+      "yvelines": "6,4",
+      "essonne": "6,4",
+      "val_d_oise": "8,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "11,7",
+      "val_de_marne": "7,7",
+      "ile_de_france": "01-08-01",
+      "paris": "9,2",
+      "hauts_de_seine": "7,6",
+      "annee": "2003",
+      "seine_et_marne": "6,2",
+      "france_metropolitaine": "8,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "fdf2c10dff0a2bbab09a38524433a6cde12c994d",
+    "fields": {
+      "yvelines": "7,1",
+      "essonne": "7,2",
+      "val_d_oise": "9,5",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "12,8",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-09",
+      "paris": "9,7",
+      "hauts_de_seine": "8,2",
+      "annee": "2004",
+      "seine_et_marne": "7,4",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "1d7b56afb9c5aae876df5737eda8f733bd80b130",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "6,9",
+      "val_d_oise": "9,2",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "12,3",
+      "val_de_marne": "8,3",
+      "ile_de_france": "01-08-06",
+      "paris": "9,3",
+      "hauts_de_seine": "7,9",
+      "annee": "2005",
+      "seine_et_marne": "7,2",
+      "france_metropolitaine": "8,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "e6662ea411265c45fcf94358387d600ceb418e72",
+    "fields": {
+      "yvelines": "6,7",
+      "essonne": "6,7",
+      "val_d_oise": "9,1",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12",
+      "val_de_marne": "8,1",
+      "ile_de_france": "01-08-04",
+      "paris": "8,9",
+      "hauts_de_seine": "7,7",
+      "annee": "2006",
+      "seine_et_marne": "7,2",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0938dc1e9848a203ec8790bd6946d4726bd2a41c",
+    "fields": {
+      "yvelines": "6,5",
+      "essonne": "6,5",
+      "val_d_oise": "8,9",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "10,9",
+      "val_de_marne": "7,5",
+      "ile_de_france": "01-07-09",
+      "paris": "8,2",
+      "hauts_de_seine": "7",
+      "annee": "2009",
+      "seine_et_marne": "7,1",
+      "france_metropolitaine": "9,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "615ab25345ea648c809fd3854159f51973c15ab2",
+    "fields": {
+      "yvelines": "6,8",
+      "essonne": "6,9",
+      "val_d_oise": "9,3",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "11,4",
+      "val_de_marne": "7,9",
+      "ile_de_france": "01-08-02",
+      "paris": "8,4",
+      "hauts_de_seine": "7,3",
+      "annee": "2010",
+      "seine_et_marne": "7,3",
+      "france_metropolitaine": "9,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "87a7f5face2ebb8f8febe61a9f9bba24d7da4c95",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,2",
+      "val_d_oise": "9,7",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "12,3",
+      "val_de_marne": "8,5",
+      "ile_de_france": "01-08-06",
+      "paris": "8,4",
+      "hauts_de_seine": "7,7",
+      "annee": "2012",
+      "seine_et_marne": "7,7",
+      "france_metropolitaine": "9,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c484079efefe647689fa77479502d353919d7aac",
+    "fields": {
+      "yvelines": "3,8",
+      "essonne": "5,2",
+      "val_d_oise": "5,5",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "7",
+      "val_de_marne": "5,3",
+      "ile_de_france": "01-05-06",
+      "paris": "6,5",
+      "hauts_de_seine": "4,9",
+      "annee": "1983",
+      "seine_et_marne": "5,1",
+      "france_metropolitaine": "7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "abde41244ea8de0a91d2624e87a60e19ecabb6ea",
+    "fields": {
+      "yvelines": "3,9",
+      "essonne": "5,3",
+      "val_d_oise": "5,7",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "7,1",
+      "val_de_marne": "5,4",
+      "ile_de_france": "01-05-07",
+      "paris": "6,8",
+      "hauts_de_seine": "5",
+      "annee": "1983",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "7,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "7a6ed9e97f194ae19ff3d2fcee3c55e07e82d6c7",
+    "fields": {
+      "yvelines": "3,9",
+      "essonne": "5,2",
+      "val_d_oise": "5,6",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "7,1",
+      "val_de_marne": "5,4",
+      "ile_de_france": "01-05-07",
+      "paris": "6,7",
+      "hauts_de_seine": "5",
+      "annee": "1983",
+      "seine_et_marne": "5,3",
+      "france_metropolitaine": "7,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "6ceb9c9611aeaf451f0231abb51d1b347dd83e58",
+    "fields": {
+      "yvelines": "4,1",
+      "essonne": "5,2",
+      "val_d_oise": "5,9",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "7,3",
+      "val_de_marne": "5,7",
+      "ile_de_france": "01-05-09",
+      "paris": "6,9",
+      "hauts_de_seine": "5,3",
+      "annee": "1984",
+      "seine_et_marne": "5,4",
+      "france_metropolitaine": "7,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0165fdcf030484506e04ff86cbcb023d6c70a7ca",
+    "fields": {
+      "yvelines": "4,6",
+      "essonne": "5,7",
+      "val_d_oise": "6,5",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "8",
+      "val_de_marne": "6,2",
+      "ile_de_france": "01-06-04",
+      "paris": "7,4",
+      "hauts_de_seine": "5,8",
+      "annee": "1984",
+      "seine_et_marne": "5,9",
+      "france_metropolitaine": "8,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "988b7a02ccc31ecc9ce15bf3ed5a9c7de9d2f9d7",
+    "fields": {
+      "yvelines": "4,9",
+      "essonne": "6",
+      "val_d_oise": "7",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "8,5",
+      "val_de_marne": "6,6",
+      "ile_de_france": "01-06-08",
+      "paris": "7,7",
+      "hauts_de_seine": "6,1",
+      "annee": "1984",
+      "seine_et_marne": "6,4",
+      "france_metropolitaine": "8,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c7047f25cb64c61c94c35ada1090665053187b2f",
+    "fields": {
+      "yvelines": "5",
+      "essonne": "5,7",
+      "val_d_oise": "6,9",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "8,5",
+      "val_de_marne": "6,5",
+      "ile_de_france": "01-06-07",
+      "paris": "7,6",
+      "hauts_de_seine": "6,3",
+      "annee": "1985",
+      "seine_et_marne": "6,1",
+      "france_metropolitaine": "8,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "8a2c584d3ccf5e29d5297674150aec1dfe90840e",
+    "fields": {
+      "yvelines": "5,8",
+      "essonne": "6,3",
+      "val_d_oise": "7,9",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9,6",
+      "val_de_marne": "7,1",
+      "ile_de_france": "01-07-06",
+      "paris": "8,6",
+      "hauts_de_seine": "7,2",
+      "annee": "1985",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "9,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "104abea2632e5f7597c13eb7b0c698c4e96d91b8",
+    "fields": {
+      "yvelines": "5,2",
+      "essonne": "6",
+      "val_d_oise": "7,5",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "9,3",
+      "val_de_marne": "7,1",
+      "ile_de_france": "01-07-03",
+      "paris": "8,4",
+      "hauts_de_seine": "6,9",
+      "annee": "1986",
+      "seine_et_marne": "6,5",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "393d5a9ba7997baf623563b61a3fd16e01f7b89e",
+    "fields": {
+      "yvelines": "5",
+      "essonne": "5,8",
+      "val_d_oise": "7,3",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "9,4",
+      "val_de_marne": "7,2",
+      "ile_de_france": "01-07-02",
+      "paris": "8,4",
+      "hauts_de_seine": "6,8",
+      "annee": "1986",
+      "seine_et_marne": "6,4",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "5943a9f6793693c864726abdafe9cc1d6f878fb4",
+    "fields": {
+      "yvelines": "5,3",
+      "essonne": "6",
+      "val_d_oise": "7,6",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "9,6",
+      "val_de_marne": "7,5",
+      "ile_de_france": "01-07-05",
+      "paris": "8,6",
+      "hauts_de_seine": "7,2",
+      "annee": "1987",
+      "seine_et_marne": "6,6",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "73fc050d2d062013e2dc0fd9922150bd24060f16",
+    "fields": {
+      "yvelines": "5,4",
+      "essonne": "5,9",
+      "val_d_oise": "7,7",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "7,4",
+      "ile_de_france": "01-07-05",
+      "paris": "8,7",
+      "hauts_de_seine": "7,1",
+      "annee": "1987",
+      "seine_et_marne": "6,5",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "3fc5be63c89232a463c705667af97f3cefa7d893",
+    "fields": {
+      "yvelines": "5,3",
+      "essonne": "5,6",
+      "val_d_oise": "7,5",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "9,6",
+      "val_de_marne": "7,1",
+      "ile_de_france": "01-07-04",
+      "paris": "8,9",
+      "hauts_de_seine": "6,7",
+      "annee": "1988",
+      "seine_et_marne": "6,4",
+      "france_metropolitaine": "8,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "15c2e81aa5a5ca2102f942ba736e52f2dfccc573",
+    "fields": {
+      "yvelines": "5,1",
+      "essonne": "5,4",
+      "val_d_oise": "7,3",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9,4",
+      "val_de_marne": "6,9",
+      "ile_de_france": "01-07-02",
+      "paris": "8,8",
+      "hauts_de_seine": "6,6",
+      "annee": "1988",
+      "seine_et_marne": "6,2",
+      "france_metropolitaine": "8,5"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "a88e8e2b4e7d0fe52dded7ecfcef64199b7f8001",
+    "fields": {
+      "yvelines": "4,8",
+      "essonne": "5,1",
+      "val_d_oise": "6,8",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "8,9",
+      "val_de_marne": "6,4",
+      "ile_de_france": "01-06-08",
+      "paris": "8,5",
+      "hauts_de_seine": "6,1",
+      "annee": "1989",
+      "seine_et_marne": "5,9",
+      "france_metropolitaine": "8,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "3bd45d08ca846bf68b505fd048a03290bd9d6f29",
+    "fields": {
+      "yvelines": "4,7",
+      "essonne": "5,1",
+      "val_d_oise": "6,7",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "8,9",
+      "val_de_marne": "6,4",
+      "ile_de_france": "01-06-08",
+      "paris": "8,6",
+      "hauts_de_seine": "6",
+      "annee": "1989",
+      "seine_et_marne": "5,8",
+      "france_metropolitaine": "8,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "73549ee1414153a3e45f801d9074966c0b295393",
+    "fields": {
+      "yvelines": "4,5",
+      "essonne": "4,4",
+      "val_d_oise": "6,1",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "8,4",
+      "val_de_marne": "6,1",
+      "ile_de_france": "01-06-05",
+      "paris": "9",
+      "hauts_de_seine": "5,7",
+      "annee": "1990",
+      "seine_et_marne": "5,2",
+      "france_metropolitaine": "7,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "93a38e73db490367c2a9a40b1b57c7e9346e655d",
+    "fields": {
+      "yvelines": "4,5",
+      "essonne": "4,6",
+      "val_d_oise": "6,2",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "8,7",
+      "val_de_marne": "6,3",
+      "ile_de_france": "01-06-07",
+      "paris": "9,4",
+      "hauts_de_seine": "5,8",
+      "annee": "1991",
+      "seine_et_marne": "5,1",
+      "france_metropolitaine": "8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c30712286c6d11aebdd8e52e9a1f3170dfb3dfd5",
+    "fields": {
+      "yvelines": "4,9",
+      "essonne": "5",
+      "val_d_oise": "6,8",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9,4",
+      "val_de_marne": "6,6",
+      "ile_de_france": "01-07-01",
+      "paris": "9,8",
+      "hauts_de_seine": "6,1",
+      "annee": "1991",
+      "seine_et_marne": "5,4",
+      "france_metropolitaine": "8,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c510b64c64476793433b5990ce2f4d9773e37ddb",
+    "fields": {
+      "yvelines": "5,5",
+      "essonne": "5,6",
+      "val_d_oise": "7,4",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "7",
+      "ile_de_france": "01-07-05",
+      "paris": "9,8",
+      "hauts_de_seine": "6,7",
+      "annee": "1992",
+      "seine_et_marne": "5,8",
+      "france_metropolitaine": "8,9"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "2e9ce36049a3b8399cc6d53e0f09ace9efb535bd",
+    "fields": {
+      "yvelines": "6,4",
+      "essonne": "6,7",
+      "val_d_oise": "8,4",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "11,5",
+      "val_de_marne": "8,2",
+      "ile_de_france": "01-08-04",
+      "paris": "10,1",
+      "hauts_de_seine": "7,9",
+      "annee": "1993",
+      "seine_et_marne": "6,5",
+      "france_metropolitaine": "9,6"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "60c96330b71e8fba06010228346116752310e8a3",
+    "fields": {
+      "yvelines": "7,2",
+      "essonne": "7,4",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "12,4",
+      "val_de_marne": "9",
+      "ile_de_france": "01-09-01",
+      "paris": "10,2",
+      "hauts_de_seine": "8,6",
+      "annee": "1993",
+      "seine_et_marne": "7,3",
+      "france_metropolitaine": "10,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "30bf2a6ea980cae93c1aea4a4ea7d94905d4136c",
+    "fields": {
+      "yvelines": "7,7",
+      "essonne": "7,8",
+      "val_d_oise": "10,1",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "13,2",
+      "val_de_marne": "9,4",
+      "ile_de_france": "01-09-06",
+      "paris": "10,5",
+      "hauts_de_seine": "9,1",
+      "annee": "1994",
+      "seine_et_marne": "8",
+      "france_metropolitaine": "10,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "e31efbd60902762d3bc941589335d35f599bb107",
+    "fields": {
+      "yvelines": "7,5",
+      "essonne": "7,8",
+      "val_d_oise": "10,1",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "13,8",
+      "val_de_marne": "9,2",
+      "ile_de_france": "01-09-06",
+      "paris": "10,3",
+      "hauts_de_seine": "8,7",
+      "annee": "1996",
+      "seine_et_marne": "8,2",
+      "france_metropolitaine": "10,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "7905603e8b22240dff5f73e28e08c270480b4b26",
+    "fields": {
+      "yvelines": "7,6",
+      "essonne": "7,9",
+      "val_d_oise": "10,2",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "13,9",
+      "val_de_marne": "9,4",
+      "ile_de_france": "01-09-07",
+      "paris": "10,3",
+      "hauts_de_seine": "8,8",
+      "annee": "1997",
+      "seine_et_marne": "8,4",
+      "france_metropolitaine": "10,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "2e79984b79a8cf585376a8bd85d1a04aa7f5eb99",
+    "fields": {
+      "yvelines": "7,5",
+      "essonne": "7,8",
+      "val_d_oise": "10,2",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "14",
+      "val_de_marne": "9,5",
+      "ile_de_france": "01-09-06",
+      "paris": "10,2",
+      "hauts_de_seine": "8,8",
+      "annee": "1997",
+      "seine_et_marne": "8,4",
+      "france_metropolitaine": "10,7"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c90f58a81c4dcf71b74263e52ba54b8987bf0ccb",
+    "fields": {
+      "yvelines": "7,1",
+      "essonne": "7,4",
+      "val_d_oise": "9,7",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "13,7",
+      "val_de_marne": "9,3",
+      "ile_de_france": "01-09-03",
+      "paris": "10",
+      "hauts_de_seine": "8,5",
+      "annee": "1998",
+      "seine_et_marne": "8",
+      "france_metropolitaine": "10,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "ae38a00b252ff383b43732ef8180fbb6e356c290",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,4",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "13,8",
+      "val_de_marne": "9,3",
+      "ile_de_france": "01-09-03",
+      "paris": "10",
+      "hauts_de_seine": "8,4",
+      "annee": "1998",
+      "seine_et_marne": "7,8",
+      "france_metropolitaine": "10,2"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "e783869cbbb93c7eacbe284fe362eb308d6c133c",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7,4",
+      "val_d_oise": "9,6",
+      "numero_du_trimestre": 3,
+      "seine_saint_denis": "13,9",
+      "val_de_marne": "9,3",
+      "ile_de_france": "01-09-03",
+      "paris": "10,1",
+      "hauts_de_seine": "8,3",
+      "annee": "1998",
+      "seine_et_marne": "7,9",
+      "france_metropolitaine": "10,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "f36540fb54c9950f30260ed0e02b048395ed5f44",
+    "fields": {
+      "yvelines": "7",
+      "essonne": "7",
+      "val_d_oise": "9,1",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "12,6",
+      "val_de_marne": "8,3",
+      "ile_de_france": "01-08-07",
+      "paris": "9,7",
+      "hauts_de_seine": "8,1",
+      "annee": "2003",
+      "seine_et_marne": "7",
+      "france_metropolitaine": "8,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "c2ca4b1db8d9d6a66e57d04043414c42e115259e",
+    "fields": {
+      "yvelines": "6,9",
+      "essonne": "7",
+      "val_d_oise": "9,4",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "12,5",
+      "val_de_marne": "8,4",
+      "ile_de_france": "01-08-07",
+      "paris": "9,2",
+      "hauts_de_seine": "7,9",
+      "annee": "2006",
+      "seine_et_marne": "7,3",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "0ee6226e6c401b5ca06f41e7cd7cd2c87f1ca463",
+    "fields": {
+      "yvelines": "5,3",
+      "essonne": "5,1",
+      "val_d_oise": "7,4",
+      "numero_du_trimestre": 2,
+      "seine_saint_denis": "9,6",
+      "val_de_marne": "6,4",
+      "ile_de_france": "01-06-06",
+      "paris": "7,1",
+      "hauts_de_seine": "5,8",
+      "annee": "2008",
+      "seine_et_marne": "5,6",
+      "france_metropolitaine": "7,3"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "15996f3a7da06f96a330ecbfb2059a9ae77bc4fc",
+    "fields": {
+      "yvelines": "5,5",
+      "essonne": "5,5",
+      "val_d_oise": "7,6",
+      "numero_du_trimestre": 4,
+      "seine_saint_denis": "9,7",
+      "val_de_marne": "6,5",
+      "ile_de_france": "01-06-08",
+      "paris": "7,1",
+      "hauts_de_seine": "6",
+      "annee": "2008",
+      "seine_et_marne": "5,9",
+      "france_metropolitaine": "7,8"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  },
+  {
+    "datasetid": "taux_chomage_de_1982_a_2013",
+    "recordid": "faf3cc69726628cd8325d005708908424d3e6a75",
+    "fields": {
+      "yvelines": "6,7",
+      "essonne": "6,7",
+      "val_d_oise": "9,3",
+      "numero_du_trimestre": 1,
+      "seine_saint_denis": "11,6",
+      "val_de_marne": "8",
+      "ile_de_france": "01-08-02",
+      "paris": "8,3",
+      "hauts_de_seine": "7,2",
+      "annee": "2011",
+      "seine_et_marne": "7,3",
+      "france_metropolitaine": "9,1"
+    },
+    "record_timestamp": "2014-08-14T00:01:48+02:00"
+  }
+]
